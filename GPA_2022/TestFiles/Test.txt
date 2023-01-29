@@ -1,0 +1,47 @@
+int Func inc2(int value)
+{
+	let int newvalue;
+	newvalue = value + value;
+	return newvalue;
+};
+
+int Func inc3(int value)
+{
+	let int newvalue;
+	newvalue = value + inc2(value);
+	return newvalue;
+};
+ 
+start
+{
+	let int y;
+	y = 15;
+	let int e;
+	e = 12 | 2;
+	let int x;
+	x = (inc3(20) + 2)-(15 ~ 16);
+	write(x);
+	let string str1;
+	let string str2;
+	str1 = 'My string1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqMy string1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq';
+	str2 = 'My string2';
+	let string str3;
+	write(str3);
+	let bool z;
+	let int le;
+	le = 10;
+	z = true;
+	write(z);
+	if(z)
+	[
+		let int len;
+		len = strlen(str1);
+		if( len equal 10)
+		[
+			write(len);
+		]
+		
+		write(str2);
+	]
+
+};

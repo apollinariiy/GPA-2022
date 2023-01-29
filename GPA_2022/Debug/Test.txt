@@ -1,0 +1,41 @@
+int Func pow2(int value)
+{
+	let int newvalue;
+	newvalue = value + value;
+	return newvalue;
+};
+
+int Func pow3(int value)
+{
+	let int newvalue;
+	newvalue = value + pow2(value);
+	return newvalue;
+};
+ 
+start
+{
+	let int y;
+	y = 15;
+	let int x;
+	x = (pow3(20) + 2)-(15 | 16);
+	write(x);
+	let string str1;
+	let string str2;
+	str1 = 'This my string';
+	str2 = 'This string';
+
+	let bool z;
+	z = strcmp(str1, str2);
+	if(z)
+	[
+		let int len;
+		len = strlen(str1);
+		if( len equal 10)
+		[
+			write(len);
+		]
+		
+		write(str2);
+	]
+
+};

@@ -1,0 +1,36 @@
+
+						~ ~ ~TABLE OF IDENTIFIERS~ ~ ~
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+	TYPE:			|ID:				|DATA TYPE:		|¹ IN LT		|VALUE(PARM):
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+	FUNCTION		|strlen				|INT			|-1
+	FUNCTION		|strcmp				|BOOL			|-1
+	FUNCTION		|strcpy				|STR			|-1
+	FUNCTION		|strcat				|STR			|-1
+	FUNCTION		|sum				|INT			|2
+	PARAMETER		|value_sum			|INT			|5
+	VARIABLE		|newvalue_sum			|INT			|10
+	LITERAL			|L1				|INT			|14			|4
+	VARIABLE		|q_start			|BOOL			|25
+	LITERAL			|L2				|BOOL			|29			|1
+	VARIABLE		|w_start			|BOOL			|33
+	VARIABLE		|qwe_start			|INT			|41
+	LITERAL			|L3				|INT			|45			|123
+	VARIABLE		|wer_start			|INT			|49
+	VARIABLE		|qwe123_start			|INT			|53
+	VARIABLE		|y_start			|INT			|57
+	LITERAL			|L4				|INT			|61			|3
+	VARIABLE		|x_start			|INT			|65
+	LITERAL			|L5				|INT			|72			|10
+	LITERAL			|L6				|INT			|75			|2
+	LITERAL			|L7				|INT			|79			|6
+	VARIABLE		|str1_start			|STR			|91
+	VARIABLE		|str2_start			|STR			|95
+	LITERAL			|L8				|STR			|99			|'This'
+	LITERAL			|L9				|STR			|103			|'String'
+	VARIABLE		|str3_start			|STR			|107
+	VARIABLE		|str4_start			|STR			|111
+	VARIABLE		|z_start			|BOOL			|143
+	VARIABLE		|len_start			|INT			|161
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
